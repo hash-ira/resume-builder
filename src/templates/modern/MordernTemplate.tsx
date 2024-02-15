@@ -14,7 +14,7 @@ export default function MordernTemplate() {
   const resumeData = useContext(StateContext);
 
   return (
-    <div className="p-2">
+    <div className="p-2" id="MainPage">
       <BasicIntro
         name={resumeData.basics.name}
         label={resumeData.basics.label}
